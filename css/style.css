@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+
+
+body {
+    margin: 0 auto;
+}
+.hidden {
+    display: none;
+}
+
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 15vh;
+}
+#login-form {
+    position: inherit;
+    left: 800px;
+}
+input {
+    margin-top: 40px;
+    height: 20px;
+}
+input:nth-child(1) {
+    width: 250px;
+}
+input:nth-child(2) {
+    height: 20px;
+}
+section {
+    position: absolute;
+    width: 100vw;
+    top: 15vh;
+    height: 67vh;
+}
+
+h2, h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+h2 {
+    font-size: 150px;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 15vh;
+}
+
+#quote > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+
+img {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    filter:brightness(70%);
+}
